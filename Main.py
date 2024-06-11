@@ -86,7 +86,7 @@ if menu == "Gallery 1":
         video_bytes = video_file.read()
 
         st.video(video_bytes)
-
+     cols = st.columns(1)
      with cols[0]:
         video_file2 = open('8.mp4', 'rb')
         video_bytes2 = video_file2.read()
