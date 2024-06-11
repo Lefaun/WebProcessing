@@ -13,7 +13,6 @@ custom_css = """
     footer {visibility: hidden;}
     .stApp {
         background: transparent;
-        body:  255,136,73;
     }
     .background {
         position: fixed;
@@ -41,7 +40,7 @@ custom_css = """
         .foreground {
             padding: 10px;
             align-items: center;
-            olor: 255,136,73;
+            color: 255,136,73;
             
         }
     p { 
