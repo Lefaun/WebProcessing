@@ -42,7 +42,7 @@ custom_css = """
 # HTML to embed the OpenProcessing iframe
 openprocessing_iframe = """
     <div class="background">
-        <iframe src="https://openprocessing.org/sketch/2275356/embed/" width="100%" height="100%"></iframe>
+        <iframe src="https://openprocessing.org/sketch/2211070/embed/" width="100%" height="100%"></iframe>
     </div>
 """
 
@@ -54,8 +54,8 @@ st.markdown(openprocessing_iframe, unsafe_allow_html=True)
 st.markdown('<div class="foreground">', unsafe_allow_html=True)
 
 # Add your Streamlit menu here
-st.title("Streamlit App with OpenProcessing Background")
-st.write("This is a Streamlit application with an embedded OpenProcessing sketch as the background.")
+st.title("O Meu Portefolio")
+st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
 
 # Create a sidebar menu
 menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
