@@ -17,7 +17,7 @@ custom_css = """
     .background {
         position: fixed;
         top: 0;
-        left: 50%;
+        left: 0%;
         height: 50%;
         width: 50%;
         z-index: -1;
