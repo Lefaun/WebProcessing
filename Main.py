@@ -74,7 +74,7 @@ if menu == "Gallery 1":
          st.title("3D")
         
     with cols[0]:
-        st.image("2.png", caption="Image 1")
+        st.image("5.png", caption="Image 1")
     with cols[1]:
         st.image("4.png", caption="Image 2")
     with cols[2]:
