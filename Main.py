@@ -12,7 +12,7 @@ custom_css = """
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     .stApp {
-        background: black;
+        background: rgba(255,255,255,0.8);
     }
     .background {
         position: fixed;
