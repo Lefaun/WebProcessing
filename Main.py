@@ -42,13 +42,17 @@ custom_css = """
             align-items: center;
             color: 255,136,73;
             
-        }
+                }
          p { 
       color: 255,136,73;
-}
-    a {
-      color: 61, 183, 228;
 
+    a {
+      color: 61, 183, 228;} [
+
+    h1 {
+    color: white;
+    }
+}
     .stApp {
         foreground: orange;
     p { 
