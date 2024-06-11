@@ -72,7 +72,7 @@ if menu == "Gallery 1":
          st.title("WEB")
     with cols[2]:
          st.title("3D")
-        
+     cols = st.columns(3)    
     with cols[0]:
         st.image("5.png", caption="Image 1")
     with cols[1]:
