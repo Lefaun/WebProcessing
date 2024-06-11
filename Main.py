@@ -18,8 +18,8 @@ custom_css = """
         position: fixed;
         top: 0;
         left: 0%;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         z-index: -1;
         overflow: hidden;
     }
@@ -31,8 +31,8 @@ custom_css = """
         position: fixed;
         top: 0;
         left:50%;
-        height: 50%;
-        width: 50%;
+        height: 100%;
+        width: 100%;
         border: none;
         z-index: -1;
     }
