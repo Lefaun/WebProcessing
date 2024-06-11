@@ -76,7 +76,7 @@ if menu == "Gallery 1":
     with cols[0]:
         st.image("2.png", caption="Image 1")
     with cols[1]:
-        st.image("3.png", caption="Image 2")
+        st.image("4.png", caption="Image 2")
     with cols[2]:
         st.image("2.png", caption="Image 3")
 
