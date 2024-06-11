@@ -17,7 +17,7 @@ custom_css = """
     .background {
         position: fixed;
         top: 0;
-        left: 0%;
+        left: 50%;
         height: 100%;
         width: 100%;
         z-index: -1;
@@ -30,7 +30,7 @@ custom_css = """
     .iframe {
         position: fixed;
         top: 0;
-        left:50%;
+        left:0;
         height: 100%;
         width: 100%;
         border: none;
@@ -44,7 +44,7 @@ custom_css = """
 # HTML to embed the OpenProcessing iframe
 openprocessing_iframe = """
     <div class="background">
-        <iframe src="https://openprocessing.org/sketch/873380/embed/" width="100%" height="100%"></iframe>
+        <iframe src="https://openprocessing.org/sketch/2257597/embed/" width="100%" height="100%"></iframe>
     </div>
 """
 
