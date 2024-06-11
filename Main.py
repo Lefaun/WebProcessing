@@ -43,6 +43,11 @@ custom_css = """
             color: 255,136,73;
             
         }
+         p { 
+      color: 255,136,73;
+}
+    a {
+      color: 61, 183, 228;
 
     .stApp {
         foreground: orange;
