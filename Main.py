@@ -96,13 +96,7 @@ if menu == "Gallery 1":
         st.image("4.png", caption="Image 2")
     with cols[2]:
         st.header("Gallery 1")
-        st.write("Aqui apesento alguns projetos de 3D que tem ilustaração e game dsign criados de origem com recurso a ferramentas e programas open source")
-        st.write("")
-        st.write("")
-        st.write("Aqui apesento alguns projetos de 3D que tem ilustaração e game dsign criados de origem com recurso a ferramentas e programas open source")
-        st.write("")
-        st.write("")
-        st.write("Aqui apesento alguns projetos de 3D que tem ilustaração e game dsign criados de origem com recurso a ferramentas e programas open source")
+        st.image("10.png", caption="Image 2")
     cols = st.columns(1)
     with cols[0]:
         video_file = open('7.mp4', 'rb')
