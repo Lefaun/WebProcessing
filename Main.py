@@ -2,7 +2,7 @@ import streamlit as st
 
 # Set Streamlit page configuration
 st.set_page_config(
-    page_title="OpenProcessing Background",
+    page_title="Le Faun´s Portfolio",
     layout="wide"
 )
 
@@ -78,7 +78,7 @@ st.markdown(openprocessing_iframe, unsafe_allow_html=True)
 st.markdown('<div class="foreground">', unsafe_allow_html=True)
 
 # Add your Streamlit menu here
-st.title("O Meu Portefolio")
+st.title("O Le Faun´s Portfolio")
 st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
 
 # Create a sidebar menu
