@@ -133,8 +133,6 @@ elif menu == "Gallery 3":
     with cols[2]:
         st.image("2.png", caption="Image 9")
 
-# Additional content can be added below
-st.write("You can add more content and interactive elements here.")
 
 # Close the 'foreground' div
 st.markdown('</div>', unsafe_allow_html=True)
