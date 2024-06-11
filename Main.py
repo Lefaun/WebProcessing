@@ -36,6 +36,14 @@ custom_css = """
         border: none;
         z-index: -1;
     }
+    @media (max-width:768px {
+        .foreground {
+            padding: 10px;
+            align-items: center;
+            
+        }
+    
+    }
     </style>
 """
 # <iframe src="https://openprocessing.org/sketch/2065046/embed/"    width="100%" height="100%"></iframe>
