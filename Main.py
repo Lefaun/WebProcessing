@@ -95,7 +95,6 @@ if menu == "Gallery 1":
     with cols[1]:
         st.image("4.png", caption="Image 2")
     with cols[2]:
-        st.header("Gallery 1")
         st.image("10.png", caption="Image 2")
     cols = st.columns(1)
     with cols[0]:
