@@ -40,17 +40,17 @@ custom_css = """
         .foreground {
             padding: 10px;
             align-items: center;
-            color: 255,136,73;
+            color: white;
             
                 }
         .title-mobile {
             color: white;
         }
          p { 
-      color: 255,136,73;
+      color: white;
 
     a {
-      color: 61, 183, 228;} [
+      color: white;} [
 
     h1 {
     color: white;
@@ -59,11 +59,11 @@ custom_css = """
     .stApp {
         foreground: orange;
         }
-    p { 
-      color: 255,136,73;
+    h1 { 
+      color: orange;
 }
     a {
-      color: 61, 183, 228;
+      color: white;
 }
     }
     </style>
