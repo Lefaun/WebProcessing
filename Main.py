@@ -40,6 +40,7 @@ custom_css = """
         .foreground {
             padding: 10px;
             align-items: center;
+            color: orange;
             
         }
     
