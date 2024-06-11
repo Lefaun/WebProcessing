@@ -58,6 +58,7 @@ custom_css = """
 }
     .stApp {
         foreground: orange;
+        }
     p { 
       color: 255,136,73;
 }
