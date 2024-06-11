@@ -78,10 +78,10 @@ if menu == "Gallery 1":
     with cols[1]:
         st.image("4.png", caption="Image 2")
     with cols[2]:
-        video_file = open('7.mp4', 'rb', width="100%", height="200%")
+        video_file = open('7.mp4', 'rb')
         video_bytes = video_file.read()
 
-        st.video(video_bytes)
+        st.video(video_bytes, width="100%",height="100%")
 
         st.header("Gallery 1")
     cols = st.columns(3)
