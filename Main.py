@@ -82,12 +82,12 @@ if menu == "Gallery 1":
         st.write("Aqui apesento alguns projetos de 3D ilustaração e game dsign criados de origem com recurso a ferramentas e programas open source")
     cols = st.columns(1)
     with cols[0]:
-        video_file = open('8.mp4', 'rb')
+        video_file = open('7.mp4', 'rb')
         video_bytes = video_file.read()
 
         st.video(video_bytes)
-     cols = st.columns(1)
-     with cols[0]:
+    cols = st.columns(1)
+    with cols[0]:
         video_file2 = open('8.mp4', 'rb')
         video_bytes2 = video_file2.read()
 
