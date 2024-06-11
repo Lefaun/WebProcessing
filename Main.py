@@ -40,10 +40,12 @@ custom_css = """
 """
 # <iframe src="https://openprocessing.org/sketch/2065046/embed/"    width="100%" height="100%"></iframe>
 #<iframe src="https://openprocessing.org/sketch/2065046/embed/"    width="100%" height="100%"></iframe>
+#<iframe src="https://openprocessing.org/sketch/2284187/embed/" width="100%" height="100%"></iframe>
 # HTML to embed the OpenProcessing iframe
 openprocessing_iframe = """
     <div class="background">
-        <iframe src="https://openprocessing.org/sketch/2284187/embed/" width="100%" height="100%"></iframe>
+        
+        <iframe src="https://openprocessing.org/sketch/2295511/embed/" width="400" height="400"></iframe>
         
     </div>
 """
