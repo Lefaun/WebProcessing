@@ -92,6 +92,7 @@ if menu == "Gallery 1":
         video_bytes2 = video_file2.read()
 
         st.video(video_bytes2)
+         
     cols = st.columns(3)    
     with cols[0]:
         st.image("2.png", caption="Image 1")
