@@ -17,7 +17,7 @@ custom_css = """
     .background {
         position: fixed;
         top: 0;
-        left: 0;
+        left: 50%;
         height: 100%;
         width: 100%;
         z-index: -1;
@@ -30,7 +30,7 @@ custom_css = """
     .iframe {
         position: fixed;
         top: 0;
-        left: 0;
+        left:50%;
         height: 100%;
         width: 100%;
         border: none;
