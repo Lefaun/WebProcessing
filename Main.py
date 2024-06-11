@@ -65,6 +65,12 @@ if menu == "Gallery 1":
     st.header("Gallery 1")
     cols = st.columns(3)
     with cols[0]:
+        
+    with cols[1]:
+       
+    with cols[2]:
+        
+    with cols[0]:
         st.image("2.png", caption="Image 1")
     with cols[1]:
         st.image("3.png", caption="Image 2")
