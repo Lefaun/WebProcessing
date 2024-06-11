@@ -42,7 +42,7 @@ custom_css = """
 # HTML to embed the OpenProcessing iframe
 openprocessing_iframe = """
     <div class="background">
-        <iframe src="https://openprocessing.org/sketch/2211070/embed/" width="100%" height="100%"></iframe>
+        <iframe src="https://openprocessing.org/sketch/2208728/embed/"  width="100%" height="100%"></iframe>
     </div>
 """
 
