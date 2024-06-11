@@ -78,20 +78,14 @@ if menu == "Gallery 1":
     with cols[1]:
         st.image("4.png", caption="Image 2")
     with cols[2]:
+        st.header("Gallery 1")
+    cols = st.columns(1)
+    with cols[0]:
         video_file = open('7.mp4', 'rb')
         video_bytes = video_file.read()
 
-        st.video(video_bytes, width="100%",height="100%")
-
-        st.header("Gallery 1")
-    cols = st.columns(3)
-    with cols[0]:
-         st.title("DSIGN")
-    with cols[1]:
-         st.title("WEB")
-    with cols[2]:
-         st.title("3D")
-        
+        st.video(video_bytes)
+    cols = st.columns(3)    
     with cols[0]:
         st.image("2.png", caption="Image 1")
     with cols[1]:
