@@ -77,6 +77,22 @@ if menu == "Gallery 1":
         st.image("3.png", caption="Image 2")
     with cols[2]:
         st.image("2.png", caption="Image 3")
+
+        st.header("Gallery 1")
+    cols = st.columns(3)
+    with cols[0]:
+         st.title("DSIGN")
+    with cols[1]:
+         st.title("WEB")
+    with cols[2]:
+         st.title("3D")
+        
+    with cols[0]:
+        st.image("2.png", caption="Image 1")
+    with cols[1]:
+        st.image("3.png", caption="Image 2")
+    with cols[2]:
+        st.image("2.png", caption="Image 3")
 elif menu == "Gallery 2":
     st.header("Gallery 2")
     cols = st.columns(3)
