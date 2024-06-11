@@ -65,29 +65,29 @@ if menu == "Gallery 1":
     st.header("Gallery 1")
     cols = st.columns(3)
     with cols[0]:
-        st.image("https://via.placeholder.com/150", caption="Image 1")
+        st.image("2.png", caption="Image 1")
     with cols[1]:
-        st.image("https://via.placeholder.com/150", caption="Image 2")
+        st.image("3.png", caption="Image 2")
     with cols[2]:
-        st.image("https://via.placeholder.com/150", caption="Image 3")
+        st.image("2.png", caption="Image 3")
 elif menu == "Gallery 2":
     st.header("Gallery 2")
     cols = st.columns(3)
     with cols[0]:
-        st.image("https://via.placeholder.com/150", caption="Image 4")
+        st.image("3.png", caption="Image 4")
     with cols[1]:
-        st.image("https://via.placeholder.com/150", caption="Image 5")
+        st.image("2.png", caption="Image 5")
     with cols[2]:
-        st.image("https://via.placeholder.com/150", caption="Image 6")
+        st.image("3.png", caption="Image 6")
 elif menu == "Gallery 3":
     st.header("Gallery 3")
     cols = st.columns(3)
     with cols[0]:
-        st.image("https://via.placeholder.com/150", caption="Image 7")
+        st.image("2.png", caption="Image 7")
     with cols[1]:
-        st.image("https://via.placeholder.com/150", caption="Image 8")
+        st.image("3.png", caption="Image 8")
     with cols[2]:
-        st.image("https://via.placeholder.com/150", caption="Image 9")
+        st.image("2.png", caption="Image 9")
 
 # Additional content can be added below
 st.write("You can add more content and interactive elements here.")
