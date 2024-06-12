@@ -115,6 +115,18 @@ if menu == "Gallery 1":
         video_file = open('7.mp4', 'rb')
         video_bytes = video_file.read()
         st.video(video_bytes)
+    cols = st.columns(3)    
+    with cols[0]:
+        st.image("5.png", caption="Image 1")
+    with cols[1]:
+        st.image("4.png", caption="Image 2")
+    with cols[2]:
+        st.image("10.png", caption="Image 2")
+    cols = st.columns(1)
+    with cols[0]:
+        video_file = open('7.mp4', 'rb')
+        video_bytes = video_file.read()
+        st.video(video_bytes)
 
 
 if menu == "Gallery 2":
