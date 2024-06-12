@@ -92,7 +92,7 @@ st.image("subtile.png")
 #st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
 
 # Create a sidebar menu
-menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
+#menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
 
 # Depending on the menu selection, show different galleries
 if menu == "Gallery 1":
