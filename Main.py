@@ -87,8 +87,9 @@ st.markdown('<div class="foreground">', unsafe_allow_html=True)
 
 # Add your Streamlit menu here
 st.image("logo.png")
+st.image("subtile.png")
 #st.markdown('<h1 class = title-mobile> O Le Faun´s Portfolio </h1>', unsafe_allow_html=True)
-st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
+#st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
 
 # Create a sidebar menu
 menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
