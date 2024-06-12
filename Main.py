@@ -96,7 +96,6 @@ st.image("subtile.png")
 
 # Depending on the menu selection, show different galleries
 #if menu == "Gallery 1":
-    
 cols = st.columns(3)
 with cols[0]:
      st.image("Dsign.png")
