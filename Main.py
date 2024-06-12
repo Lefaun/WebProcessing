@@ -98,11 +98,11 @@ st.image("subtile.png")
 #if menu == "Gallery 1":
 cols = st.columns(3)
 with cols[0]:
-     st.image("Dsign.png")
+    st.image("Dsign.png")
 with cols[1]:
-     st.image("Web.png")
+    st.image("Web.png")
 with cols[2]:
-     st.image("3D.png")
+    st.image("3D.png")
 cols = st.columns(3)    
 with cols[0]:
     st.image("5.png", caption="Image 1")
@@ -114,9 +114,8 @@ cols = st.columns(1)
 with cols[0]:
     video_file = open('7.mp4', 'rb')
     video_bytes = video_file.read()
-
     st.video(video_bytes)
-     
+ 
 cols = st.columns(3)    
 with cols[0]:
     st.image("2.png", caption="Image 1")
@@ -125,7 +124,6 @@ with cols[1]:
 with cols[2]:
     st.image("2.png", caption="Image 3")
 
-st.header("Gallery 2")
 cols = st.columns(3)
 with cols[0]:
     st.image("3.png", caption="Image 4")
@@ -134,7 +132,6 @@ with cols[1]:
 with cols[2]:
     st.image("3.png", caption="Image 6")
 
-st.header("Gallery 3")
 cols = st.columns(3)
 with cols[0]:
     st.image("2.png", caption="Image 7")
