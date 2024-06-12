@@ -43,10 +43,6 @@ custom_css = """
             color: white;
             
                 }
-        
-        .title-mobile {
-            color: white;
-        }
        
     }
     .stApp {
