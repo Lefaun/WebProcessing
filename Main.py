@@ -95,7 +95,7 @@ st.image("subtile.png")
 #menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
 
 # Depending on the menu selection, show different galleries
-if menu == "Gallery 1":
+#if menu == "Gallery 1":
     
     cols = st.columns(3)
     with cols[0]:
