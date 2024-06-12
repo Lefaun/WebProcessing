@@ -86,7 +86,8 @@ st.markdown(openprocessing_iframe, unsafe_allow_html=True)
 st.markdown('<div class="foreground">', unsafe_allow_html=True)
 
 # Add your Streamlit menu here
-st.markdown('<h1 class = title-mobile> O Le Faun´s Portfolio </h1>', unsafe_allow_html=True)
+st.image("logo.png")
+#st.markdown('<h1 class = title-mobile> O Le Faun´s Portfolio </h1>', unsafe_allow_html=True)
 st.write("DSIGN | WEB | 3D | GAME DESIGN | PYTHON")
 
 # Create a sidebar menu
