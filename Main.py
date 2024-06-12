@@ -43,29 +43,16 @@ custom_css = """
             color: white;
             
                 }
+        
         .title-mobile {
             color: white;
         }
-         p { 
-      color: white;
-
-    a {
-      color: white;} [
-
-    h1 {
-    color: white;
+       
     }
-}
     .stApp {
         foreground: orange;
         }
-    h1 { 
-      color: orange;
-}
-    a {
-      color: white;
-}
-    }
+
     </style>
 """
 # <iframe src="https://openprocessing.org/sketch/2065046/embed/"    width="100%" height="100%"></iframe>
