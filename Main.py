@@ -95,14 +95,14 @@ menu = st.sidebar.radio("Menu", ["Gallery 1", "Gallery 2", "Gallery 3"])
 
 # Depending on the menu selection, show different galleries
 if menu == "Gallery 1":
-    st.image("Dsign.png")
+    
     cols = st.columns(3)
     with cols[0]:
          st.image("Dsign.png")
     with cols[1]:
          st.image("Web.png")
     with cols[2]:
-         sst.image("3D.png")
+         st.image("3D.png")
     cols = st.columns(3)    
     with cols[0]:
         st.image("5.png", caption="Image 1")
