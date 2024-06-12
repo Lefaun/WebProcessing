@@ -100,9 +100,9 @@ if menu == "Gallery 1":
         video_bytes = video_file.read()
         st.video(video_bytes)
     with cols[1]:
-        video_file2 = open('video_build.mp4', 'rb')
-        video_bytes2 = video_file2.read()
-        st.video(video_bytes2)
+        video_fil = open('video_build.mp4', 'rb')
+        video_byt = video_fil.read()
+        st.video(video_byt)
         
     #cols = st.columns(3)    
     #with cols[0]:
