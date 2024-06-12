@@ -108,13 +108,13 @@ if menu == "Gallery 1":
         video_bytes2 = video_file2.read()
         st.video(video_bytes2)
         
-    cols = st.columns(3)    
-    with cols[0]:
-        st.image("5.png", caption="Image 1")
-    with cols[1]:
-        st.image("4.png", caption="Image 2")
-    with cols[2]:
-        st.image("10.png", caption="Image 2")
+    #cols = st.columns(3)    
+    #with cols[0]:
+        #st.image("5.png", caption="Image 1")
+    #with cols[1]:
+        #st.image("4.png", caption="Image 2")
+    #with cols[2]:
+        #st.image("10.png", caption="Image 2")
     
     #cols = st.columns(1)
    #with cols[0]:
@@ -123,30 +123,30 @@ if menu == "Gallery 1":
         #st.video(video_bytes)
 
 
-if menu == "Gallery 2":
-    cols = st.columns(3)    
-    with cols[0]:
-        st.image("2.png", caption="Image 1")
-    with cols[1]:
-        st.image("3.png", caption="Image 2")
-    with cols[2]:
-        st.image("2.png", caption="Image 3")
+#if menu == "Gallery 2":
+    #cols = st.columns(3)    
+    #with cols[0]:
+        #st.image("2.png", caption="Image 1")
+    #with cols[1]:
+        #st.image("3.png", caption="Image 2")
+    #with cols[2]:
+        #st.image("2.png", caption="Image 3")
     
-    cols = st.columns(3)
-    with cols[0]:
-        st.image("3.png", caption="Image 4")
-    with cols[1]:
-        st.image("2.png", caption="Image 5")
-    with cols[2]:
-        st.image("3.png", caption="Image 6")
-if menu == "Gallery 3":
-    cols = st.columns(3)
-    with cols[0]:
-        st.image("2.png", caption="Image 7")
-    with cols[1]:
-        st.image("3.png", caption="Image 8")
-    with cols[2]:
-        st.image("2.png", caption="Image 9")
+    #cols = st.columns(3)
+    #with cols[0]:
+        #st.image("3.png", caption="Image 4")
+    #with cols[1]:
+        #st.image("2.png", caption="Image 5")
+    #with cols[2]:
+        #st.image("3.png", caption="Image 6")
+#if menu == "Gallery 3":
+    #cols = st.columns(3)
+    #with cols[0]:
+        #st.image("2.png", caption="Image 7")
+    #with cols[1]:
+        #st.image("3.png", caption="Image 8")
+    #with cols[2]:
+        #st.image("2.png", caption="Image 9")
 
 
 # Close the 'foreground' div
